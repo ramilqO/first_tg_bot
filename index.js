@@ -18,7 +18,7 @@ const start = () => {
   bot.setMyCommands([   //подсказки команд
     {command: '/start', description: 'Запустить бота'},
     {command: '/info', description: 'Показать информацию'},
-    {command: 'game', description: 'Начать игру'}
+    {command: '/game', description: 'Начать игру'}
 ]);
 
 bot.on('message', async msg => {    //команды
